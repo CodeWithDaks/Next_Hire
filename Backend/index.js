@@ -32,7 +32,8 @@ app.use(cookieParser());
 
 //->Cross-Origin Resource Sharing :-
 const corsOptions = {
-    origin:'http://localhost:5173',
+    // origin:'http://localhost:5173',
+    origin:"https://next-hire-3.onrender.com/",
     credentials:true
 }
 
