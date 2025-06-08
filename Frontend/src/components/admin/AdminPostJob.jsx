@@ -134,6 +134,7 @@ const AdminPostJob = () => {
               <Input
                 type="text"
                 name="salary"
+                placeholder="LPA"
                 value={input.salary}
                 onChange={changeEventHandler}
                 className="focus-visible:ring-offset-0 focus-visible:ring-0 my-1"
